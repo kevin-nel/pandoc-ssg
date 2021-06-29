@@ -1,18 +1,6 @@
 # pandoc-ssg
 a simple bash script to generate a static site from a folder full of markdown files
 
----
-title: "Rebuilding My Site As a Wiki"
-author: Kevin Nel
-last_modified_at: 2020-01-08
----
-
-I've been very interested in the concepts of digital gardens and [personal knowledge management systems](/projects/pkms.md), so i decided to try and build my own system that could help me be a little more productive when it comes to writing articles, completing projects and organizing information.
-
-This post is a little bit more technical.
-
-## pandoc as a static site generator
-
 I wanted something simple and I really didn't want to mess with jekyll again so i decided to make a little wrapper script for pandoc.
 
 It takes in a folder full of markdown files that link each other where all the assests are in an assets folder.
